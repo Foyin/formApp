@@ -3,10 +3,37 @@
   "version": "1.0.0",
   "description": "Form generation app",
   "main": "index.js",
-  "scripts": {
-    "start":"node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "annyang": "^2.6.1",
+    "body-parser": "^1.10.1",
+    "cookie-parser": "^1.3.3",
+    "debug": "^2.1.1",
+    "express": "^4.11.0",
+    "express-session": "^1.15.6",
+    "jade": "^1.9.0",
+    "morgan": "^1.5.1",
+    "multer": "^1.3.0",
+    "serve-favicon": "^2.2.0",
+    "shelljs": "^0.8.2",
+    "socket.io": "^2.1.1",
+    "socketio-file-upload": "^0.6.0"
   },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foyin/formApp.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
   "author": "Foyin Ogbara",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foyin/formApp/issues"
+  },
+  "homepage": "https://github.com/Foyin/formApp#readme"
 }
