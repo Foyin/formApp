@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Form Generator</title>
+		<link rel="stylesheet" href="/style.css">
+		<link rel="icon" href="/favicon.ico" >
+	</head>
+	<body>
+		<div class="main-wrapper">
+			<div class="forms-tab">
+				<div class="form">
+					<input class="title" type="text" placeholder="Title"><br>
+					<textarea class="description" type="text"  placeholder="Form Description"></textarea><br>
+				</div>
+				<div id=questions></div>
+				<button  class="addQuestionBtn">ADD QUESTION</button>
+			</div>
+
+			<div class="results-tab">
+				<h1></h1>
+				<pre id="description"></pre>
+				<div id="questionFormResults"></div>
+			</div>
+	    	</div>
+
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+		<script src="/main.js"></script>
+
+	</body>
+</html>
