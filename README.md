@@ -1,4 +1,4 @@
-# formApp
+# Form Generator Web App
 
 This web app can be used to easily create forms. Would later be extended with [socket.IO](https://socket.io/) to take polls.
 
